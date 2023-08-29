@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<h1 class="logo">Developer</h1>
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#About">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Works</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>UI/UX Designer & Developer</p>
+			<h1>Hi, I'm <span>Nagarjuna</span><br>from India</h1>
+		</div>
+	</div>
+</div>
+
+<!------------ ABOUT ---------------->
+<div id="About">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/user.png">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About me</h1>
+				<p>This is Nagarjuna Nallabothula from Parchur. I completed my graduation and 10+2 at Rajiv Gandhi University
+				of Knowledge Technologie,Srikakulam 2023. I completed my schooling at Sri Sathavahana High School. I designed some portfolios and login forms, and I also worked as a voleteering intern at a NGO based organisation for helping poor people.</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Front-End developer</span><br>I learned HTML,CSS and JavaScript for scripting.</li>
+						<li><span>Programming Languages</span><br>I learned C and Python languages for developing programming logics.</li>
+						<li><span>Softwares</span><br>I have basic knowledge on Matlab, MS-Excel, Multisim softwares.</li>
+						<li><span>Others</span><br>I learned about Machine Learning, Analog and Digital circuits and Embeded Systems.</li>
+					</ul>
+				</div>
+
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>JOB</span><br>Subject Matter Expert (SME) at CHEGG experts (Virtual)</li>
+						<li><span>Internship</span><br>AI ML at AICTE (Virtual)</li>
+						<li><span>Trainings</span><br>An introduction programming to Internet of Things (IoT) at coursera<br>Python programming with Raspberry Pi at coursera</li>
+					</ul>
+				</div>
+
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>2019-2023</span><br>Electronics and Communication Engineering at Rajiv Gandhi University of Knowledge Technologies,Srikakulam</li>
+						<li><span>2017-2019</span><br>Pre University Course at Rajiv Gandhi University of Knowledge Technologies,Srikakulam</li>
+						<li><span>2017</span><br>Secondary education at Sri Sainath English Medium School,Nellore</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- -----------SERVICES-------- -->
+
+<div id="services">
+	<div class="container">
+		<h1 class="Sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<h2>Web Design</h2>
+				<p>You can get amazing and responsive web designs from me. You can get professional web designs from me.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<h2>MS-Excel work</h2>
+				<p>You will get more effective and effient sheet works from on the time.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<h2>Resume Building</h2>
+				<p>You can get professional resumes for the experienced and fresher students. These are amazing.. </p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ----------Portfolio--------- -->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="Sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+					<h3>IoT Projects</h3>
+					<p>This device will glow by experiencing any moistures</p>
+					<a href="#">Click here</a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>Excel works</h3>
+					<p>Here are the details of the employees have sorted and salaries are increased with hike of 15%</p>
+					<a href="#">Click here</a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>web design</h3>
+					<p>This is an eCommarce web site for food. Here all the options are available for a restaurent</p>
+					<a href="#">Click here</a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See More</a>
+	</div>
+</div>
+
+
+<!-- ---------------------Contact------------ -->
+
+
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>nallabothulanagarjuna0@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i>+91 630xxxxxx1</p>
+				<div class="social-icons">
+					<a><i class="fa-brands fa-facebook"></i></a>
+					<a><i class="fa-brands fa-twitter"></i></a>
+					<a><i class="fa-brands fa-instagram"></i></a>
+					<a><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+			</div>
+
+			<div class="contact-right">
+				<form>
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2 btn3">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>copyright &copy; 2023 <br><br>Nagarjuna.Nallabothula&trade; <br><br>made with HTML,CSS,JS</p>
+	</div>
+</div>
+
+
+<script>
+	
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+
+</script>
+
+<script>
+	
+	var sidemenu = document.getElementById("sidemenu");
+	function openmenu(){
+		sidemenu.style.right="0";
+	}
+	function closemenu(){
+		sidemenu.style.right="-150px";
+	}
+
+
+</script>
+
+</body>
+</html>
