@@ -1,0 +1,66 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background: #34282c;
+}
+
+.box{
+	width: 450px;
+	padding: 50px;
+	border-radius: 30px;
+	border: none;
+	margin-top: 7%;
+	box-shadow: 1px 1px 10px gold;
+}
+.equal_btn{
+	width: 50px;
+	padding: 5px;
+	border-radius: 50%;
+	border: none;
+	height: 50px;
+	font-weight: bold;
+}
+#input{
+	padding: 5px;
+	width: 260px;
+	border: none;
+	border:none;
+	box-shadow: 1px 1px 6px white;
+	height: 50px;
+	font-size: 25px;
+	color: white;
+	background:none;
+
+}
+.row_btns{
+	width: 71px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+}
+.button{
+	margin: 5px;
+	box-shadow: 0 10px 10px black;
+}
+#output{
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: black;
+}
+span{
+	color: red;
+}
+.designer_name{
+	text-shadow: 0 10px 10px black;
+}
+.git-btn{
+	background: white;
+	border-radius: 12px;
+}
