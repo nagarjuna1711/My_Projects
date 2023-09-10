@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area calculator designed by Nallabothula Nagarjuna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="script.js"></script>
+</head>
+<body style="background-color: rgb(4, 109, 123);">
+    <div class="d-flex flex-row justify-content-between mt-4 mr-5 ml-5">
+        <h1 class="main_heading">Area calculator</h1>
+        <p class="name mt-2">designed by <span>Nallabothula Nagarjuna</span></p>
+    </div>
+<div class="main_div">
+    
+    <div class="details_container container m-3">
+        <h1 class="text-center m-5 text-light" id="details_heading"></h1>
+        <h1 class="text-center text-light" id="small_screen">select object below <br><br>|<br>|<br>V</h1>
+        <div class="d-flex flex-row mt-2 ">
+            <div class="option m-1 text-center" id="op-1"><b>HEIGHT</b> <i>(cm)</i></div>
+            <input type="text" id="ip-1" class="input_box text-center" placeholder="Enter height in cm">
+        </div>
+        <div class="d-flex flex-row mt-2 ">
+            <div class="option m-1 text-center" id="op-2"><b>WIDTH</b> <i>(cm)</i></div>
+            <input type="text"id="ip-2" class="input_box text-center " placeholder="Enter width in cm">
+        </div>
+        <div class="d-flex flex-row mt-2 ">
+            <div class="option m-1 text-center" id="op-3"><b>BASE</b> <i>(cm)</i></div>
+            <input type="text" id="ip-3" class="input_box text-center" placeholder="Enter base in cm">
+        </div>
+        <div class="d-flex flex-row mt-2 ">
+            <div class="option m-1 text-center" id="op-4"><b>RADIUS</b> <i>(cm)</i></div>
+            <input type="text"id="ip-4" class="input_box text-center " placeholder="Enter radius in cm">
+        </div>
+
+        
+        <div class="text-center m-3">
+            <button id="submit1" onclick="submit1()">Find area</button>
+        </div>
+        <div class="text-center m-3">
+            <button id="submit2" onclick="submit2()">Find area</button>
+        </div>
+        <div class="text-center m-3">
+            <button id="submit3" onclick="submit3()">Find area</button>
+        </div>
+        <div class="text-center m-3">
+            <button id="submit4" onclick="submit4()">Find area</button>
+        </div>
+        <div class="text-center m-3">
+            <button id="submit5" onclick="submit5()">Find area</button>
+        </div>
+        <div class="text-center m-3">
+            <button id="submit6" onclick="submit6()">Find area</button>
+        </div>
+
+
+        <div class="output p-5 mt-5">
+            <h1 class="result text-center " id="result">Your result will be here</h1>
+            
+        </div>
+
+    </div>
+    
+    <div class="container selection_container m-3">
+        <div class="d-flex flex-column">
+            <h1 class="text-center m-3 object">Select object</h1>
+            <button class="p-3 triangle_btn text-light m-3" onclick="triangle()"><b>TRIANGLE</b></button>
+            <button class="p-3 triangle_btn text-light m-3" onclick="square()"><b>SQUARE</b></button>
+            <button class="p-3 triangle_btn text-light m-3" onclick="rectangle()"><b>RECTANGLE</b></button>
+            <button class="p-3 triangle_btn text-light m-3" onclick="circle()"><b>CIRCLE</b></button>
+            <button class="p-3 triangle_btn text-light m-3" onclick="cylinder()"><b>CYLINDER</b></button>
+            <button class="p-3 triangle_btn text-light m-3" onclick="rhombus()"><b>RHOMBUS</b></button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
