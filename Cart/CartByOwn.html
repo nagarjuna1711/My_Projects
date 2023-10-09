@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CartByOwn.css">
+</head>
+<body>
+    <section id="products">
+    </section>
+
+    <i class="cartIcon" id="showBtn">Open Cart</i>
+
+    <section id="cart">
+        <button id="removeBtn">X</button>
+        <P class="pa">No of items : <span id="noOfItems">0</span></P>
+        <h2 class="cartTitle">CART PRODUCTS</h2>
+
+        <table class="itemsInCart">
+            <thead>
+                <th class="columnName">Product</th>
+                <th class="columnName">Title</th>
+                <th class="columnName">Price</th>
+                <th class="columnName">Quantity</th>
+                <th class="columnName">Remove</th>
+            </thead>
+            <tbody id="cartRows">
+            </tbody>
+        </table>
+        <p class="cartTitle total" id="total">  Total :</p>
+        <button id="proceedToCheck" class="cartBtn">Proceed to Check</button>
+    </section>
+    <script src="JavaScript.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

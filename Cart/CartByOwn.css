@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#products
+{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+}
+.pro
+{
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid black;
+    text-align: center;
+    width: 250px;
+    height: 325px;
+    margin: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+.pro img{
+    width: 50%;
+}
+.cartBtn
+{
+    width: 80%;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #088178;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+
+.cartIcon
+{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    position: fixed;
+    background-color: rgb(172, 172, 61);
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#cart
+{
+    position: absolute;
+    right: -30%;
+    top: 0;
+    position: fixed;
+    width: 30%;
+    background-color: #088178;
+    height: 100vh;
+    transition: 0.4s ease;
+}
+#proceedToCheck
+{
+    background-color: rgb(126, 57, 57);
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+}
+.cartTitle
+{
+    padding: 10px 0;
+    text-align: center;
+    background-color: yellow;
+}
+#removeBtn
+{
+    background-color: red;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.itemsInCart
+{
+    border: 1px solid black;
+    width: 100%;
+}
+.itemsInCart .columnName
+{
+    padding:10px;
+    background-color: blueviolet;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+}
+tbody tr
+{
+    text-align: center;
+}
+tbody tr img
+{
+    width: 50%;
+}
+tbody tr input
+{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    width: 80px;
+    color: #fff;
+}
+tbody tr h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+tbody tr
+{
+    color: #fff;
+}
+.total
+{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #088178;
+}
+.total span
+{
+    color: rgb(255, 255, 255);
+}
+.pa
+{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #fff;
+}
+.pa span
+{
+    background-color: yellow;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 50%;
+} 
+.units
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.number
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+.btn
+{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+#noOfItems
+{
+    font-weight: 800;
+    font-size: 25px;
+}
